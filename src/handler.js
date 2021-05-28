@@ -174,7 +174,7 @@ const getBooksByIdHandler = (request, h) => {
   return response;
 };
 
-// Update Books By Id
+// Update Books
 const editBooksByIdHandler = (request, h) => {
   const {
     name,
